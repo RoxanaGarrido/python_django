@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Panel de Administración: Proyecto tutorial_biblio</h3>
+    <a href="{% url 'admin:index' %}">Administración</a> |
+    <a href="{% url 'galeria' %}">Galería</a>
+    <a href="{% url 'xml' %}">Exportar libros a xml</a>
+    <a href="{% url 'csv' %}">Exportar libros a csv</a>
+    <a href="{% url 'pdf' %}">Exportar libros a pdf</a>
+    <a href="{% url 'json' %}">Exportar libros a json</a>
+</body>
+</html>
